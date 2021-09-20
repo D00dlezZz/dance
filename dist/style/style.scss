@@ -159,6 +159,7 @@
                         font-size: 12px;
                         line-height: 14px;
                         color: #49464F;
+                        margin-bottom: 20px;
                         
                     }
                     .ride__item {
@@ -171,7 +172,7 @@
                     }
                     li::marker {
                         color: #7140EB;
-                        font-size: 80px;
+                        font-size: 30px;
                 
                       }
                 }
@@ -278,12 +279,86 @@
         background-size: cover;
         height: 100vh;
         width: 100%;
-        
+
         .stay__container {
-            
+            padding: 120px;
+
+            .stay__text {
+                margin-bottom: 100px;
+                .stay__title {
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 82px;
+                    line-height: 81px;
+                    letter-spacing: 2.7px;
+                    color: #49464F;
+                }
+
+                .stay__subtitle {
+                    width: 284px;
+                    margin-top: 50px;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 19px;
+                    line-height: 22px;
+                    color: #8172A2;
+                }
+            }
 
             .stay__info {
                 display: flex;
+                justify-content: flex-start;
+
+                .stay___block {
+                    margin-right: 64px;
+                }
+
+                .stay__description {
+                    width: 296px;
+                    margin-top: 15px;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 23px;
+                    line-height: 27px;
+                    color: #49464F;  
+                }
+            }
+        }
+    }
+    .join {
+        display: flex;
+        background-color: #F7F0EA;
+        height: 100vh;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+
+        .join__container {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .join__text {
+                text-align: center;
+                width: 500px;
+                .join__title {
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 82px;
+                    line-height: 81px;
+                    letter-spacing: 2.7px;
+                    color: #49464F;
+                }
+
+                .join__subtitle {
+                    margin-top: 30px;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 19px;
+                    line-height: 22px;
+                    color: #49464F;
+                }
             }
         }
     }

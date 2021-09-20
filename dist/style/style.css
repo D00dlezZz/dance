@@ -200,6 +200,7 @@
   font-size: 12px;
   line-height: 14px;
   color: #49464F;
+  margin-bottom: 20px;
 }
 
 * .ride .ride__container .ride__bike .ride__descripton .ride__item {
@@ -212,7 +213,7 @@
 
 * .ride .ride__container .ride__bike .ride__descripton li::marker {
   color: #7140EB;
-  font-size: 80px;
+  font-size: 30px;
 }
 
 * .built {
@@ -321,9 +322,104 @@
   width: 100%;
 }
 
+* .stay .stay__container {
+  padding: 120px;
+}
+
+* .stay .stay__container .stay__text {
+  margin-bottom: 100px;
+}
+
+* .stay .stay__container .stay__text .stay__title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 82px;
+  line-height: 81px;
+  letter-spacing: 2.7px;
+  color: #49464F;
+}
+
+* .stay .stay__container .stay__text .stay__subtitle {
+  width: 284px;
+  margin-top: 50px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 22px;
+  color: #8172A2;
+}
+
 * .stay .stay__container .stay__info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+* .stay .stay__container .stay__info .stay___block {
+  margin-right: 64px;
+}
+
+* .stay .stay__container .stay__info .stay__description {
+  width: 296px;
+  margin-top: 15px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 27px;
+  color: #49464F;
+}
+
+* .join {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #F7F0EA;
+  height: 100vh;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+* .join .join__container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+* .join .join__container .join__text {
+  text-align: center;
+  width: 500px;
+}
+
+* .join .join__container .join__text .join__title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 82px;
+  line-height: 81px;
+  letter-spacing: 2.7px;
+  color: #49464F;
+}
+
+* .join .join__container .join__text .join__subtitle {
+  margin-top: 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 22px;
+  color: #49464F;
 }
 /*# sourceMappingURL=style.css.map */
