@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
+  
 
     .menu {
         display: flex;
@@ -88,10 +89,12 @@
         background-size: cover;
         width: 100%;
         height: 100vh;
+
         .move__container {
            padding-top: 100px;
            padding-right: 52px;
             color: #FBF7F3;
+
             .move__title {
                 font-style: normal;
                 font-weight: normal;
@@ -111,13 +114,16 @@
         background-color: #FBF7F3;
         width: 100%;
         height: 100vh;
+
         .ride__container {
             display: flex;
             justify-content: center;
+
             .ride__info {
                 width: 440px;
                 color: #49464F;
                 margin: auto 0;
+
                 .ride__title {
                     font-style: normal;
                     font-weight: normal;
@@ -146,7 +152,6 @@
                 .ride__descripton {
                     margin: auto 70px;
                     list-style-position: inside;
-        
     
                     .ride__text {
                         font-style: normal;
@@ -154,6 +159,7 @@
                         font-size: 12px;
                         line-height: 14px;
                         color: #49464F;
+                        
                     }
                     .ride__item {
                         color: #8172A2;
@@ -166,11 +172,119 @@
                     li::marker {
                         color: #7140EB;
                         font-size: 80px;
-        
+                
                       }
                 }
             }
     
+        }
+    }
+
+    .built {
+        background-color: #FAF6F2;
+        width: 100%;
+        height: 100vh;
+
+        .built__container {
+            text-align: center;
+            padding-top: 50px;
+
+           .built__info {   
+
+            .built__title{
+                font-style: normal;
+                font-weight: normal;
+                font-size: 82px;
+                line-height: 81px;
+                color: #49464F;
+            }
+
+            .built__subtitle {
+                padding-top: 30px;
+                color: #8172A2;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 23px;
+            }
+           }
+        }
+    }
+
+    .info {
+        background-color: #FAF6F2;
+        width: 100%;
+        height: 100%;
+        padding: 70px 20px;
+
+        .info__container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            color: #2E2C34;
+
+            .info__block {
+                width: 321px;
+
+                .info__title {
+                    font-size: 30px;
+                    line-height: 36px;
+                    margin-bottom: 30px;
+                }
+
+                .info__discription {
+                    margin-top: 30px;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 19px;
+                    line-height: 23px;
+                }
+            }
+        }
+    }
+
+    .image {
+        background: url(../img/sec3.png) no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        height: 100vh;
+
+        .image__container {
+            padding-top: 100px;
+           padding-right: 52px;
+           color: #FFFFFF;
+
+           .image__title {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 93px;
+                line-height: 112px;
+           }
+
+           .image__subtitle {
+            font-style: normal;
+            font-weight: normal;
+            text-align: right;
+            font-size: 29px;
+            line-height: 28px;
+           }
+        }
+    }
+    
+    .stay {
+        background: url(../img/sec4.png) no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+
+        .stay__container {
+            
+
+            .stay__info {
+                display: flex;
+            }
         }
     }
 }
