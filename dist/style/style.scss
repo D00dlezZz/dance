@@ -3,38 +3,108 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
-  .menu {
-    display: flex;
-    padding: 13px 23px 14px 23px;
-    height: 81px;
-    justify-content: space-between;
-    background-color: #fbf7f3;
-    &__navigation {
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
-      background-color: #ffffff;
-      border-radius: 30px;
-      width: 663px;
-      .menu__button {
-        cursor: pointer;
-        color: #ffffff;
-        background-color: #7140eb;
-        border: none;
-        border-radius: 30px;
-        height: 40px;
-        width: 176px;
-        font-size: 16px;
-        margin-right: 7px;
-      }
-      .manu__item {
-          text-decoration: none;
-          color: #8D867C;
-          margin-right: 50px;
-      }
-      .manu__item:hover {
-        color: #49464F;
-      }
+
+    .menu {
+        display: flex;
+        padding: 13px 23px 14px 23px;
+        height: 81px;
+        justify-content: space-between;
+        background-color: #fbf7f3;
+
+        &__navigation {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            background-color: #ffffff;
+            border-radius: 30px;
+            width: 663px;
+
+            .menu__button {
+                cursor: pointer;
+                color: #ffffff;
+                background-color: #7140eb;
+                border: none;
+                border-radius: 30px;
+                height: 40px;
+                width: 176px;
+                font-size: 16px;
+                margin-right: 7px;
+            }
+            .manu__item {
+                text-decoration: none;
+                color: #8d867c;
+                margin-right: 50px;
+            }
+            .manu__item:hover {
+                color: #49464f;
+            }
+        }
     }
-  }
+    .subscribe {
+        background: url(../img/sec1bcg.png) no-repeat ;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+
+        .subscribe__container {
+            color: #FBF7F3;
+            padding: 90px;
+            .subscribe__title {
+                font-weight: normal;
+                font-size: 80px;
+                text-align: center;
+            }
+            .subscribe__text{
+                width: 380px;
+                text-align: center;
+                margin: 0 auto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 18px;
+                padding-top: 20px;
+            }
+            .subscribe__button{
+                display: flex;
+                justify-content: center;
+                padding-top: 24px;
+                .subscribe__btnText {
+                    cursor: pointer;
+                    color: #ffffff;
+                    background-color: #7140eb;
+                    border: none;
+                    border-radius: 30px;
+                    height: 40px;
+                    width: 176px;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    .move {
+        display: flex;
+        justify-content: flex-end;
+        background: url(../img/sec2bcg.png) no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        .move__container {
+           padding-top: 100px;
+           padding-right: 52px;
+            color: #FBF7F3;
+            .move__title {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 93px;
+                line-height: 112px;
+            }
+            .move__subtitle {
+                font-style: normal;
+                font-weight: normal;
+                text-align: right;
+                font-size: 29px;
+                line-height: 28px;
+            }
+        }
+    }
 }
