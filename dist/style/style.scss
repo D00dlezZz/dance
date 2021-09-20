@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  .menu {
+    display: flex;
+    padding: 13px 23px 14px 23px;
+    height: 81px;
+    justify-content: space-between;
+    background-color: #fbf7f3;
+    &__navigation {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      background-color: #ffffff;
+      border-radius: 30px;
+      width: 663px;
+      .menu__button {
+        cursor: pointer;
+        color: #ffffff;
+        background-color: #7140eb;
+        border: none;
+        border-radius: 30px;
+        height: 40px;
+        width: 176px;
+        font-size: 16px;
+      }
+    }
+  }
+}
