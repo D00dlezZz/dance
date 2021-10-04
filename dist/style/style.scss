@@ -440,7 +440,7 @@
 
             .move__container {
                 padding-right: 25px;
-                
+
                 .move__title{
                     font-size: 40px;
                     height: 60px;
@@ -491,6 +491,19 @@
                     }
                 }
 
+            }
+        }
+
+        .built {
+            .built__container {
+                .built__title {
+                    font-size: 30px;
+                }
+
+                .built__subtitle {
+                    padding: 0;
+                    font-size: 15px;
+                }
             }
         }
 

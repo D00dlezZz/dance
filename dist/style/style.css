@@ -510,6 +510,13 @@
     margin: 0 auto;
     font-size: 15px;
   }
+  * .built .built__container .built__title {
+    font-size: 30px;
+  }
+  * .built .built__container .built__subtitle {
+    padding: 0;
+    font-size: 15px;
+  }
   * .join {
     display: none;
   }
