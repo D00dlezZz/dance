@@ -164,9 +164,9 @@
                 align-items: center;
 
                 .ride__img {
-                    >img {
-                        width: 100%;
-                    }
+                   >img {
+                    width: 100%;
+                   }
                 }
 
                 .ride__descripton {
@@ -180,6 +180,82 @@
                         padding-top: 30px;
                     }
 
+                }
+            }
+        }
+    }
+
+    .built {
+        background: #FBF7F3;
+
+        .built__container {
+            max-width: 1440px;
+            margin: 0 auto;
+            text-align: center;
+
+            .built__title {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 83px;
+                line-height: 81px;
+                text-align: center;
+                letter-spacing: 2.7px;
+                color: #49464F;
+            }
+
+            .built__subtitle {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 23px;                
+                color: #8172A2;
+                padding-top: 20px;
+            }
+
+
+            .built__img {
+                >img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .info {
+        background: #FBF7F3;
+
+        .info__container {
+            display: flex;
+            max-width: 1440px;
+            margin: 0 auto;
+           
+            .info__block {
+                margin: 0 auto;
+                width: 321px;
+                padding: 50px 0;
+
+                .info__title {
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 30px;
+                    line-height: 36px;
+                    color: #2E2C34;
+                    padding-bottom: 10px;
+                }
+
+                .info__discription {
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 19px;
+                    line-height: 23px;
+                    padding-top: 22px;  
+                    color: #49464F;
+                }
+
+                .info__img {
+                    >img {
+                        width: 100%;
+                    }
                 }
             }
         }

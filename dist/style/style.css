@@ -212,4 +212,77 @@
 * .ride .ride__container .ride__bike .ride__descripton .ride__item {
   padding-top: 30px;
 }
+
+* .built {
+  background: #FBF7F3;
+}
+
+* .built .built__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+* .built .built__container .built__title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 83px;
+  line-height: 81px;
+  text-align: center;
+  letter-spacing: 2.7px;
+  color: #49464F;
+}
+
+* .built .built__container .built__subtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  color: #8172A2;
+  padding-top: 20px;
+}
+
+* .built .built__container .built__img > img {
+  width: 100%;
+}
+
+* .info {
+  background: #FBF7F3;
+}
+
+* .info .info__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+* .info .info__container .info__block {
+  margin: 0 auto;
+  width: 321px;
+  padding: 50px 0;
+}
+
+* .info .info__container .info__block .info__title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  color: #2E2C34;
+  padding-bottom: 10px;
+}
+
+* .info .info__container .info__block .info__discription {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 23px;
+  padding-top: 22px;
+  color: #49464F;
+}
+
+* .info .info__container .info__block .info__img > img {
+  width: 100%;
+}
 /*# sourceMappingURL=style.css.map */
