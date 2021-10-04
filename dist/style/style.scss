@@ -418,9 +418,11 @@
         }
     
         .subscribe {
-            
+            align-items: center;
+
             .subscribe__container {
                 padding: 20% 0;
+
                 .subscribe__title {
                     font-size: 30px;
                 }
@@ -435,8 +437,10 @@
 
         .move {
             height: 420px;
+
             .move__container {
-                padding-right: 10px;
+                padding-right: 25px;
+                
                 .move__title{
                     font-size: 40px;
                     height: 60px;
@@ -449,16 +453,42 @@
         }
 
         .ride {
+       
             .ride__container {
                 display: block;
+                max-width: 375px;
+            
 
                 .ride__info {
-                    max-width: 375px;
+                    margin: 0 auto;
+                    padding-top: 30px;
+                   width: 100%;
+            
                     .ride__title {
-                        font-size: 40px;
+                        font-size: 30px;
                         letter-spacing: 0;
+                        padding-bottom: 0;
+                    }
+                    .ride__subtitle {
+                        margin: 0 auto;
+                        width: 250px;
+                        font-size: 15px;
                     }
 
+                }
+
+                .ride__bike {
+                 
+
+                    .ride__img {
+                        margin: 0 auto;
+                        width: 150px;
+                    }
+
+                    .ride__descripton {
+                        margin: 0 auto;
+                        font-size: 15px;
+                    }
                 }
 
             }
