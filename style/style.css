@@ -445,4 +445,80 @@
 * .join .join__container .join__left > img {
   width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+  * .menu .menu__logo {
+    width: 90px;
+  }
+  * .menu .menu__navigation {
+    display: none;
+  }
+  * .subscribe {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  * .subscribe .subscribe__container {
+    padding: 20% 0;
+  }
+  * .subscribe .subscribe__container .subscribe__title {
+    font-size: 30px;
+  }
+  * .subscribe .subscribe__container .subscribe__text {
+    padding-top: 0px;
+    font-size: 15px;
+    width: 300px;
+  }
+  * .move {
+    height: 420px;
+  }
+  * .move .move__container {
+    padding-right: 25px;
+  }
+  * .move .move__container .move__title {
+    font-size: 40px;
+    height: 60px;
+  }
+  * .move .move__container .move__subtitle {
+    padding-top: 15px;
+    font-size: 15px;
+  }
+  * .ride .ride__container {
+    display: block;
+    max-width: 375px;
+  }
+  * .ride .ride__container .ride__info {
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 100%;
+  }
+  * .ride .ride__container .ride__info .ride__title {
+    font-size: 30px;
+    letter-spacing: 0;
+    padding-bottom: 0;
+  }
+  * .ride .ride__container .ride__info .ride__subtitle {
+    margin: 0 auto;
+    width: 250px;
+    font-size: 15px;
+  }
+  * .ride .ride__container .ride__bike .ride__img {
+    margin: 0 auto;
+    width: 150px;
+  }
+  * .ride .ride__container .ride__bike .ride__descripton {
+    margin: 0 auto;
+    font-size: 15px;
+  }
+  * .built .built__container .built__title {
+    font-size: 30px;
+  }
+  * .built .built__container .built__subtitle {
+    padding: 0;
+    font-size: 15px;
+  }
+  * .join {
+    display: none;
+  }
+}
 /*# sourceMappingURL=style.css.map */
