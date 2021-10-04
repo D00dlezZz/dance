@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -65,16 +64,13 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: url(../img/sec1bcg.png) no-repeat;
-  /* Firefox 3.6+ */
-  /* Safari 3.1+ и Chrome 4.0+ */
-  /* Opera 9.6+ */
-  background-size: 100%;
+  background: url(../img/sec1bcg.png) no-repeat center center;
+  height: 420px;
 }
 
 * .subscribe .subscribe__container {
-  max-width: 1440px;
   text-align: center;
+  max-width: 1440px;
   margin: 0 auto;
   padding-top: 83px;
   padding-bottom: 80px;
@@ -111,5 +107,109 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
+}
+
+* .move {
+  max-width: 1440px;
+  margin: 0 auto;
+  background: url(../img/sec2bcg.png) no-repeat center center;
+  height: 800px;
+}
+
+* .move .move__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-top: 90px;
+  padding-right: 52px;
+  color: #FBF7F3;
+}
+
+* .move .move__container .move__title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 93px;
+  line-height: 112px;
+}
+
+* .move .move__container .move__subtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 29px;
+  line-height: 28px;
+}
+
+* .ride {
+  background: #FBF7F3;
+}
+
+* .ride .ride__container {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 1440px;
+}
+
+* .ride .ride__container .ride__info {
+  width: 440px;
+}
+
+* .ride .ride__container .ride__info .ride__title {
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 82px;
+  line-height: 81px;
+  letter-spacing: 2.7px;
+  color: #49464F;
+  padding-bottom: 40px;
+}
+
+* .ride .ride__container .ride__info .ride__subtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #8172A2;
+}
+
+* .ride .ride__container .ride__bike {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* .ride .ride__container .ride__bike .ride__img > img {
+  width: 100%;
+}
+
+* .ride .ride__container .ride__bike .ride__descripton {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  color: #8172A2;
+}
+
+* .ride .ride__container .ride__bike .ride__descripton .ride__item {
+  padding-top: 30px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -49,15 +49,12 @@
 
     .subscribe {
         display: flex;
-        background: url(../img/sec1bcg.png) no-repeat;
-        -moz-background-size: 100%; /* Firefox 3.6+ */
-        -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
-        -o-background-size: 100%; /* Opera 9.6+ */
-        background-size: 100%; 
+        background: url(../img/sec1bcg.png) no-repeat center center;
+        height: 420px;
     
         .subscribe__container {
-            max-width: 1440px;
             text-align: center;
+            max-width: 1440px;
             margin: 0 auto;
             padding-top: 83px;
             padding-bottom: 80px;
@@ -93,6 +90,97 @@
                 font-weight: normal;
                 font-size: 16px;
                 line-height: 19px;
+            }
+        }
+    }
+
+    .move {
+        max-width: 1440px;
+        margin: 0 auto;
+        background: url(../img/sec2bcg.png) no-repeat center center;
+        height: 800px; 
+
+        .move__container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            padding-top: 90px;
+            padding-right: 52px;
+            color: #FBF7F3;
+
+            .move__title {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 93px;
+                line-height: 112px;
+            }
+
+            .move__subtitle {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 29px;
+                line-height: 28px;
+            }
+        }
+    }
+
+    .ride {
+        background: #FBF7F3;
+
+        .ride__container {
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 1440px;
+
+            .ride__info {
+                width: 440px;
+
+                .ride__title {
+                    text-align: center;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 82px;
+                    line-height: 81px;
+                    letter-spacing: 2.7px;
+                    color: #49464F;
+                    padding-bottom: 40px;
+                }
+
+                .ride__subtitle {
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 20px;
+                    line-height: 23px;
+                    text-align: center;
+                    color: #8172A2;
+                }
+
+            }
+
+            .ride__bike {
+                display: flex;
+                align-items: center;
+
+                .ride__img {
+                    >img {
+                        width: 100%;
+                    }
+                }
+
+                .ride__descripton {
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 20px;
+                    line-height: 23px;
+                    color: #8172A2;
+
+                    .ride__item {
+                        padding-top: 30px;
+                    }
+
+                }
             }
         }
     }
