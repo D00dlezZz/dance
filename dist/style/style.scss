@@ -399,5 +399,73 @@
         
         }
     }
+    
+}
 
+
+@media screen and (max-width: 768px) {
+
+    *{
+
+        .menu {
+
+            .menu__logo {
+                width: 90px;
+            }
+            .menu__navigation {
+              display: none;
+            }
+        }
+    
+        .subscribe {
+            
+            .subscribe__container {
+                padding: 20% 0;
+                .subscribe__title {
+                    font-size: 30px;
+                }
+
+                .subscribe__text {
+                    padding-top: 0px;
+                    font-size: 15px;
+                    width: 300px;
+                }
+            }
+        }
+
+        .move {
+            height: 420px;
+            .move__container {
+                padding-right: 10px;
+                .move__title{
+                    font-size: 40px;
+                    height: 60px;
+                }
+                .move__subtitle {
+                    padding-top: 15px;
+                    font-size: 15px;
+                }
+            }
+        }
+
+        .ride {
+            .ride__container {
+                display: block;
+
+                .ride__info {
+                    max-width: 375px;
+                    .ride__title {
+                        font-size: 40px;
+                        letter-spacing: 0;
+                    }
+
+                }
+
+            }
+        }
+
+        .join {
+            display: none;
+        }
+    }
 }
