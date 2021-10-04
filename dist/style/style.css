@@ -1,25 +1,32 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #FBF7F3;
   font-family: "Roboto", sans-serif;
 }
 
 * .menu {
+  max-width: 1440px;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  max-width: 1440px;
-  padding: 21px 30px 0 23px;
-  margin: 0 auto;
+  padding: 21px 30px 14px 23px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  /* Firefox 3.6+ */
+  -webkit-background-size: 100%;
+  /* Safari 3.1+ и Chrome 4.0+ */
+  -o-background-size: 100%;
+  background: red;
 }
 
 * .menu .menu__navigation {
@@ -59,5 +66,42 @@
   width: 176px;
   border: none;
   color: #FBF7F3;
+}
+
+* .subscribe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: url(../img/sec1bcg.png) no-repeat;
+  /* Firefox 3.6+ */
+  /* Safari 3.1+ и Chrome 4.0+ */
+  /* Opera 9.6+ */
+  background-size: 100%;
+}
+
+* .subscribe .subscribe__container {
+  max-width: 1440px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 83px;
+  padding-bottom: 80px;
+  color: #FBF7F3;
+}
+
+* .subscribe .subscribe__container .subscribe__title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 5em;
+  line-height: 90px;
+  letter-spacing: 2.7px;
+}
+
+* .subscribe .subscribe__container .subscribe__text {
+  width: 380px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 18px;
+  padding: 26px 0;
 }
 /*# sourceMappingURL=style.css.map */

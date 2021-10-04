@@ -2,16 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color:  #FBF7F3;
     font-family: "Roboto", sans-serif;
 
     .menu {
+        max-width: 1440px;
+        margin: 0 auto;
         display: flex;
         align-items: center;
-        max-width: 1440px;
-        padding: 21px 30px 0 23px;
-        margin: 0 auto;
+        padding: 21px 30px 14px 23px;
         justify-content: space-between;
+        background-size: 100%;
+        -moz-background-size: 100%; /* Firefox 3.6+ */
+        -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+        -o-background-size: 100%;
+        background: red;
 
         .menu__navigation {
             display: flex;
@@ -44,6 +48,41 @@
                 width: 176px;
                 border: none;
                 color: #FBF7F3;
+            }
+        }
+    }
+
+    .subscribe {
+        display: flex;
+        background: url(../img/sec1bcg.png) no-repeat;
+        -moz-background-size: 100%; /* Firefox 3.6+ */
+        -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+        -o-background-size: 100%; /* Opera 9.6+ */
+        background-size: 100%; 
+    
+        .subscribe__container {
+            max-width: 1440px;
+            text-align: center;
+            margin: 0 auto;
+            padding-top: 83px;
+            padding-bottom: 80px;
+            color:  #FBF7F3;
+
+            .subscribe__title {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 5em;
+                line-height: 90px;
+                letter-spacing: 2.7px;
+            }
+
+            .subscribe__text {
+                width: 380px;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 1em;
+                line-height: 18px;
+                padding: 26px 0;
             }
         }
     }
