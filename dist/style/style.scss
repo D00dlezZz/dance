@@ -5,17 +5,12 @@
     font-family: "Roboto", sans-serif;
 
     .menu {
-        max-width: 1440px;
         margin: 0 auto;
         display: flex;
         align-items: center;
         padding: 21px 30px 14px 23px;
         justify-content: space-between;
-        background-size: 100%;
-        -moz-background-size: 100%; /* Firefox 3.6+ */
-        -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
-        -o-background-size: 100%;
-        background: red;
+        background: #FBF7F3;
 
         .menu__navigation {
             display: flex;
@@ -77,12 +72,27 @@
             }
 
             .subscribe__text {
+                margin: 0 auto;
                 width: 380px;
                 font-style: normal;
                 font-weight: normal;
                 font-size: 1em;
                 line-height: 18px;
                 padding: 26px 0;
+            }
+
+            .subscribe__button {
+                cursor: pointer;
+                background: #7140EB;
+                border-radius: 9999px;
+                width: 186px;
+                height: 45px;
+                border: none;
+                color: #FBF7F3;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 19px;
             }
         }
     }
